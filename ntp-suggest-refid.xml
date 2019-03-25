@@ -323,6 +323,10 @@
       </t>
     </section>
 
+    <section title="Bogon">
+      <t>This is a bogon.</t>
+    </section>
+    
     <section title="The Suggested REFID Extension Field and Leap Smear REFIDs">
       <t>
 	The Suggested REFID can play an important part when a server
@@ -354,7 +358,7 @@
 	leap smear period.
       </t>
       <t>
-	See XXX for more information.
+	See [draft-stenn-ntp-leap-smear-refid] for more information.
       </t>
     </section>
 
