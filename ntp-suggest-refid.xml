@@ -334,18 +334,17 @@
 	leap-smeared time is to offer leap-smeared time in response to
 	appropriate client (mode 3) requests.  There are several
 	forces at play during this time:
-	<t><list>
-	  <t>Clients that want correct time should get correct
-	  time.</t>
-	  <t>Clients that want leap-smeared time should get
-	  leap-smeared time.</t>
-	</list></t>
+      </t>
+      <t>- Clients that want correct time should get correct time.</t>
+      <t>- Clients that want leap-smeared time should get leap-smeared
+      time.</t>
+      <t>
 	An additional complication is that a leap-second insertion
-	event begins at noon UTC, when the
-	Leap Indicator is 1, but the smear is only halfway applied at
-	midnight UTC, when the Leap Indicator changes back to 0.
-	There is no simple way for the client to let its server(s)
-	know that it is using leap-smeared time.
+	event begins at noon UTC, when the Leap Indicator is 1, but
+	the smear is only halfway applied at midnight UTC, when the
+	Leap Indicator changes back to 0.  There is no simple way for
+	the client to let its server(s) know that it is using
+	leap-smeared time.
       </t>
 
       <t>
