@@ -322,10 +322,6 @@
 	document) this situation.
       </t>
     </section>
-
-    <section title="Bogon">
-      <t>This is a bogon.</t>
-    </section>
     
     <section title="The Suggested REFID Extension Field and Leap Smear REFIDs">
       <t>
@@ -336,7 +332,7 @@
       <t>
 	The current preferred behavior for servers that offer
 	leap-smeared time is to offer leap-smeared time in response to
-	appropriate client (mode 3) requests.  There are several
+	appropriate client (mode 3) requests.  There are two competing
 	forces at play during this time:
       </t>
       <t>- Clients that want correct time should get correct time.</t>
