@@ -338,7 +338,7 @@
 	  <t>Clients that want correct time should get correct
 	  time.</t>
 	  <t>Clients that want leap-smeared time should get
-	  leap-smeared time.<\t>
+	  leap-smeared time.</t>
 	</list></t>
 	An additional complication is that a leap-second insertion
 	event begins at noon UTC, when the
