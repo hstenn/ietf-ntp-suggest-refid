@@ -116,14 +116,14 @@
     <abstract>
       <t>
 	NTP's Reference ID, or REFID, identifies the source of time in
-	a timestamp or time packet.  In network NTP packets, the REFID
-	is used to identify the "system peer", and in the long-term
-	general case its fundamental purpose is to prevent a
-	one-degree timing loop.  Each instance of NTP decides for
-	itself what REFID it will put in its outgoing packets, and
-	there is currently no way for an external time source to tell
-	or recommend this value in the case where that external time
-	source is selected as the "system peer."
+	a timestamp or time packet.  In NTP packets sent  over the
+	network the REFID is used to identify the "system peer", and
+	in the long-term general case its fundamental purpose is to
+	prevent a one-degree timing loop.  Each instance of NTP
+	decides for itself what REFID it will put in its outgoing
+	packets, and there is currently no way for an external time
+	source to tell or recommend this value in the case where that
+	external time source is selected as the "system peer."
       </t>
 
       <t>
