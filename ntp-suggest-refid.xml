@@ -37,7 +37,7 @@
 <?rfc subcompact="no" ?>
 <!-- keep one blank line between list items -->
 <!-- end of list of popular I-D processing instructions -->
-<rfc category="std" docName="draft-stenn-ntp-suggest-refid-04" ipr="trust200902">
+<rfc category="std" docName="draft-stenn-ntp-suggest-refid-05" ipr="trust200902">
   <!-- category values: std, bcp, info, exp, and historic
      ipr values: full3667, noModification3667, noDerivatives3667
      you can add the attributes updates="NNNN" and obsoletes="NNNN" 
@@ -349,12 +349,10 @@
 
       <t>
 	One simple way for the client to let its server(s) know that
-	it is using and wants leap-smeared time is for the client to use a Leap
-	Smear REFID in its client (mode 3) requests during the entire
+	it is using and wants leap-smeared time is for the client to
+	use a <xref target="DRAFT-LEAP-SMEAR-REFID">Leap Smear
+	REFID</xref> in its client (mode 3) requests during the entire
 	leap smear period.
-      </t>
-      <t>
-	See [draft-stenn-ntp-leap-smear-refid] for more information.
       </t>
     </section>
 
@@ -418,22 +416,31 @@
 
     <!-- Here we use entities that we defined at the beginning. -->
 
-    <!-- SW: Except that we're not really using these...
-
-	HMS: I think we want informative references to at least:
-
-		I-DO
-		LEAP-SMEAR REFID
-
-	and I don't know how these should be formatted.
-
     <references title="Informative References">
+      <!--
       &RFC3552;
 
       &I-D.narten-iana-considerations-rfc2434bis;
- 
-    </references> 
      -->
+
+      <!-- HMS: Do we want a reference to this? -->
+      <reference anchor="DRAFT-I-DO">
+	<front>
+	  <title>draft-stenn-ntp-i-do</title>
+	  <author initials="H." surname="Stenn"><organization /></author>
+	  <date year="2018" />
+	</front>
+      </reference>
+
+      <reference anchor="DRAFT-LEAP-SMEAR-REFID">
+	<front>
+	  <title>draft-stenn-ntp-leap-smear-refid </title>
+	  <author initials="H." surname="Stenn"><organization /></author>
+	  <date year="2018" />
+	</front>
+      </reference>
+
+    </references> 
 
     <!--
     <section anchor="app-additional" title="Additional Stuff">
